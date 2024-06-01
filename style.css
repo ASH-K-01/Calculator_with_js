@@ -1,0 +1,53 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(52, 52, 78);
+}
+
+.container {
+    background-color: rgb(170, 210, 230);
+    width: 25vw;
+    height: 33vw;
+    border-radius: 20px;
+}
+
+.button {
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: rgb(221, 232, 239);
+    font-weight: 600;
+    font-size: large;
+    width: 60px;
+
+    /* width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 600; */
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    width: 275px;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(235, 245, 246);
+}
+
+@media screen and (max-width: 1000px){
+    .container {
+        width: auto;
+        height: auto;
+    }
+}

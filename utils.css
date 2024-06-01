@@ -1,0 +1,35 @@
+.text-center {
+    text-align: center;
+    color: #2b2525;
+    background-color: rgb(73, 212, 220);
+    
+    
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    display:flex;
+    background-color: rgb(170, 210, 230);
+    padding-bottom: 2%;
+    padding-top: 1%;
+    /* height: 70%;
+    width: 40%; */
+    border-radius: 20px;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+}
+
